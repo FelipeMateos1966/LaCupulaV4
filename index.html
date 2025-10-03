@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Cúpula</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <meta name="theme-color" content="#007bff"/>
+    <link rel="apple-touch-icon" href="icon-192x192.png">
+</head>
+<body>
+    <div id="permission-container">
+        <p>Esta aplicación necesita acceso a su micrófono para funcionar correctamente.</p>
+        <button id="mic-permission-btn">Habilitar Micrófono</button>
+    </div>
+    <iframe id="app-frame" allow="microphone" style="display:none;"></iframe>
+    <script src="app.js"></script>
+</body>
+</html>
